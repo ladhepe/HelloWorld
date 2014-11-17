@@ -19,6 +19,10 @@ public class TestJunitHelloWorld {
         }
     }
     public String sayHello() {
-        return "toto";
+        return "Hello";
+    }
+    
+    public String sayGoodBye(){
+        return "GoodBye";
     }
 }
