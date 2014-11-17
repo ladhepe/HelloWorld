@@ -21,7 +21,10 @@ public class TestJunitHelloWorld {
     public String sayHello() {
         return "Hello";
     }
-    
+    /**
+     * 
+     * Add comment. 
+     **/
     public String sayGoodBye(){
         return "GoodBye";
     }
