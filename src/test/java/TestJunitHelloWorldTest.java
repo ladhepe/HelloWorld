@@ -26,27 +26,15 @@ public class TestJunitHelloWorldTest extends TestCase {
     }
 
     /**
-     * Test of main method, of class TestJunitHelloWorld.
-     */
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        TestJunitHelloWorld.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of sayHello method, of class TestJunitHelloWorld.
      */
     public void testSayHello() {
         System.out.println("sayHello");
         TestJunitHelloWorld instance = new TestJunitHelloWorld();
-        String expResult = "";
+        String expResult = "Hello";
         String result = instance.sayHello();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
