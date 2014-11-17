@@ -19,6 +19,6 @@ public class TestJunitHelloWorld {
         }
     }
     public String sayHello() {
-        return "Hello Test 1";
+        return "Hello Test 12";
     }
 }
