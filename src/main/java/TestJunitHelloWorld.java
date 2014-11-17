@@ -19,6 +19,6 @@ public class TestJunitHelloWorld {
         }
     }
     public String sayHello() {
-        return "Hello Test de faire un add et ensuite un push et enfin un commit..";
+        return "Hello Test de verifier si le build se lance en automatique";
     }
 }
