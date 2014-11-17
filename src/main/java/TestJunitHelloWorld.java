@@ -19,6 +19,6 @@ public class TestJunitHelloWorld {
         }
     }
     public String sayHello() {
-        return "Hello Test 12";
+        return "Hello Test de faire un add et ensuite un push et enfin un commit..";
     }
 }
